@@ -21,9 +21,11 @@ void dfs(SudukuStructure &suduku) {
   }
 }
 
-int main () {
-  freopen("input.txt", "r", stdin);
-  //freopen("output.txt", "w", stdout);
+int main (int argc, char **argv) {
+  if (argc == 3) {
+    freopen(argv[1], "r", stdin);
+    freopen(argv[2], "w", stdout);
+  }
 
 
   std::string board, line;
