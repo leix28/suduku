@@ -1,4 +1,5 @@
 #include "SudukuStructure.h"
+#include <cstring>
 
 SudukuStructure::SudukuStructure() {
   clear();

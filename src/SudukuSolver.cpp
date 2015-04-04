@@ -1,5 +1,6 @@
 #include "SudukuStructure.h"
 
+#include <cstdio>
 #include <iostream>
 #define FIND_RESULT_EXCEPTION 0x0000FFFF
 
