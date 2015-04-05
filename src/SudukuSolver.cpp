@@ -4,6 +4,7 @@
 #include <iostream>
 #define FIND_RESULT_EXCEPTION 0x0000FFFF
 
+//naive DFS solver.
 void dfs(SudukuStructure &suduku) {
   if (suduku.emptyEntity() == 0) {
     throw FIND_RESULT_EXCEPTION;
